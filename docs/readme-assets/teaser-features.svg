@@ -1,0 +1,101 @@
+<!--
+  Concept-LAB Mermaid Editor — README teaser.
+  Copyright (c) 2026 Concept-LAB BV. All rights reserved.
+  Proprietary and confidential — see LICENSE.txt.
+-->
+<svg width="1200" height="780" viewBox="0 0 1200 780" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <metadata>Copyright (c) 2026 Concept-LAB BV. All rights reserved.</metadata>
+  <defs>
+    <linearGradient id="bg3" x1="60" y1="60" x2="1140" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7F0"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF7A18"/>
+      <stop offset="1" stop-color="#FFB347"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="780" rx="36" fill="url(#bg3)"/>
+
+  <text x="88" y="108" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800">Six reasons diagram authors stay in this tab</text>
+  <text x="88" y="148" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="18">Mermaid diagrams you can draw, theme and deliver — offline, with your source untouched.</text>
+
+  <!-- Row 1, card 1: Draw mode -->
+  <g>
+    <rect x="88" y="196" width="328" height="238" rx="28" fill="#111827"/>
+    <rect x="116" y="224" width="72" height="72" rx="20" fill="#FFEDD5"/>
+    <path d="M138 274L142 258L162 238L172 248L152 268L138 274Z" fill="#C2410C"/>
+    <rect x="138" y="280" width="34" height="6" rx="3" fill="#C2410C"/>
+    <text x="116" y="334" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">Draw, don't type</text>
+    <text x="116" y="368" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="15">Build the flowchart by clicking in</text>
+    <text x="116" y="390" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="15">the preview: 14 shapes, 12 link</text>
+    <text x="116" y="412" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="15">types, groups and undo.</text>
+  </g>
+
+  <!-- Row 1, card 2: Templates -->
+  <g>
+    <rect x="436" y="196" width="328" height="238" rx="28" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="464" y="224" width="72" height="72" rx="20" fill="#DBEAFE"/>
+    <rect x="482" y="240" width="36" height="18" rx="5" fill="#1D4ED8"/>
+    <rect x="474" y="272" width="24" height="16" rx="5" fill="#1D4ED8"/>
+    <rect x="506" y="272" width="24" height="16" rx="5" fill="#1D4ED8"/>
+    <path d="M500 258V266M500 266H486V272M500 266H518V272" stroke="#1D4ED8" stroke-width="3"/>
+    <text x="464" y="334" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">24 starter templates</text>
+    <text x="464" y="368" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">Flowchart, sequence, C4, ER,</text>
+    <text x="464" y="390" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">gantt, mindmap, sankey, radar —</text>
+    <text x="464" y="412" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">one click, ready to edit.</text>
+  </g>
+
+  <!-- Row 1, card 3: Export -->
+  <g>
+    <rect x="784" y="196" width="328" height="238" rx="28" fill="#FFF7ED" stroke="#FED7AA"/>
+    <rect x="812" y="224" width="72" height="72" rx="20" fill="#111827"/>
+    <path d="M848 244V276M848 276L836 264M848 276L860 264" stroke="#FDBA74" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="828" y="282" width="40" height="6" rx="3" fill="#FDBA74"/>
+    <text x="812" y="334" fill="#7C2D12" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">Five ways to deliver</text>
+    <text x="812" y="368" fill="#9A3412" font-family="Arial, Helvetica, sans-serif" font-size="15">PNG, JPG, PDF, SVG — plus a</text>
+    <text x="812" y="390" fill="#9A3412" font-family="Arial, Helvetica, sans-serif" font-size="15">draw.io file with real editable</text>
+    <text x="812" y="412" fill="#9A3412" font-family="Arial, Helvetica, sans-serif" font-size="15">shapes, not a picture.</text>
+  </g>
+
+  <!-- Row 2, card 1: Themes -->
+  <g>
+    <rect x="88" y="460" width="328" height="238" rx="28" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="116" y="488" width="72" height="72" rx="20" fill="#FEF3C7"/>
+    <circle cx="152" cy="518" r="14" fill="#D97706"/>
+    <rect x="145" y="534" width="14" height="6" rx="3" fill="#D97706"/>
+    <rect x="147" y="544" width="10" height="5" rx="2.5" fill="#D97706"/>
+    <text x="116" y="598" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">Dark and light, honestly</text>
+    <text x="116" y="632" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">Auto, Light or Dark preview — and</text>
+    <text x="116" y="654" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">the colours you set yourself are</text>
+    <text x="116" y="676" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">kept in both, exports included.</text>
+  </g>
+
+  <!-- Row 2, card 2: Viewport -->
+  <g>
+    <rect x="436" y="460" width="328" height="238" rx="28" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <rect x="464" y="488" width="72" height="72" rx="20" fill="#DCFCE7"/>
+    <circle cx="494" cy="518" r="16" stroke="#16A34A" stroke-width="7"/>
+    <path d="M506 530L522 546" stroke="#16A34A" stroke-width="7" stroke-linecap="round"/>
+    <text x="464" y="598" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">Big diagrams stay usable</text>
+    <text x="464" y="632" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">Stepless wheel zoom that pins the</text>
+    <text x="464" y="654" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">point under the cursor, hand-tool</text>
+    <text x="464" y="676" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="15">pan, fit-to-width and fit-to-screen.</text>
+  </g>
+
+  <!-- Row 2, card 3: Offline -->
+  <g>
+    <rect x="784" y="460" width="328" height="238" rx="28" fill="#0F172A"/>
+    <rect x="812" y="488" width="72" height="72" rx="20" fill="#1E293B"/>
+    <path d="M830 524a18 18 0 0 1 36 0" stroke="#38BDF8" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <circle cx="848" cy="536" r="6" fill="#38BDF8"/>
+    <path d="M826 500L872 546" stroke="#F87171" stroke-width="5" stroke-linecap="round"/>
+    <text x="812" y="598" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800">Everything stays local</text>
+    <text x="812" y="632" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="15">Mermaid 11.16.1 and jsPDF ship</text>
+    <text x="812" y="654" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="15">inside the extension. No CDN, no</text>
+    <text x="812" y="676" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="15">network call, no telemetry.</text>
+  </g>
+
+  <rect x="88" y="726" width="12" height="26" rx="6" fill="url(#accent3)"/>
+  <text x="116" y="747" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">Surgical edits — your comments, ids, indentation and %%{init}%% blocks survive every GUI change</text>
+</svg>

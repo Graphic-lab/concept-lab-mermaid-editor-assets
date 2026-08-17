@@ -1,0 +1,134 @@
+<!--
+  Concept-LAB Mermaid Editor — README teaser.
+  Copyright (c) 2026 Concept-LAB BV. All rights reserved.
+  Proprietary and confidential — see LICENSE.txt.
+-->
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <metadata>Copyright (c) 2026 Concept-LAB BV. All rights reserved.</metadata>
+  <defs>
+    <linearGradient id="bg" x1="88" y1="64" x2="1112" y2="656" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6E8"/>
+      <stop offset="1" stop-color="#F3FAFF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="120" y1="120" x2="1080" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF7A18"/>
+      <stop offset="1" stop-color="#FFB347"/>
+    </linearGradient>
+    <filter id="shadow" x="40" y="40" width="1120" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0588235 0 0 0 0 0.0941176 0 0 0 0 0.168627 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="110" cy="110" r="56" fill="#FFE2C2"/>
+  <circle cx="1074" cy="606" r="72" fill="#DDF1FF"/>
+
+  <g filter="url(#shadow)">
+    <rect x="96" y="84" width="1008" height="552" rx="28" fill="url(#panel)"/>
+  </g>
+
+  <!-- window chrome -->
+  <rect x="96" y="84" width="1008" height="52" rx="28" fill="#111C34"/>
+  <circle cx="132" cy="110" r="8" fill="#FB7185"/>
+  <circle cx="156" cy="110" r="8" fill="#FBBF24"/>
+  <circle cx="180" cy="110" r="8" fill="#4ADE80"/>
+  <rect x="224" y="98" width="236" height="24" rx="12" fill="#1E293B" stroke="#334155"/>
+  <text x="244" y="114" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">architecture.mmd — Concept-LAB</text>
+
+  <!-- toolbar -->
+  <rect x="126" y="158" width="948" height="58" rx="18" fill="#12213C" stroke="#243B63"/>
+  <rect x="148" y="175" width="88" height="24" rx="12" fill="url(#accent)"/>
+  <text x="172" y="191" fill="#1F2937" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800">SPLIT</text>
+  <g fill="#DDE7F5">
+    <rect x="258" y="176" width="26" height="22" rx="6"/>
+    <rect x="294" y="176" width="26" height="22" rx="6"/>
+    <rect x="330" y="176" width="26" height="22" rx="6"/>
+    <rect x="366" y="176" width="26" height="22" rx="6"/>
+    <rect x="402" y="176" width="26" height="22" rx="6"/>
+  </g>
+  <rect x="446" y="172" width="96" height="30" rx="15" fill="#1E3054" stroke="#3B5D95"/>
+  <path d="M466 192L470 178L480 182L470 194L466 192Z" fill="#FFB347"/>
+  <text x="486" y="192" fill="#FFD8A8" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800">DRAW</text>
+  <rect x="556" y="172" width="104" height="30" rx="15" fill="#1E3054" stroke="#3B5D95"/>
+  <path d="M578 181V191M578 191L573 186M578 191L583 186" stroke="#FFB347" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="590" y="192" fill="#FFD8A8" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800">EXPORT</text>
+  <path d="M648 184L652 189L656 184" stroke="#8FB0DE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="688" cy="187" r="15" fill="#1E3054" stroke="#3B5D95"/>
+  <circle cx="688" cy="183" r="5.5" fill="#FFD8A8"/>
+  <rect x="685" y="190" width="6" height="3" rx="1.5" fill="#FFD8A8"/>
+  <circle cx="728" cy="187" r="15" fill="#1E3054" stroke="#3B5D95"/>
+  <path d="M722 187a6 6 0 1 1 2 4.4" stroke="#8FB0DE" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <path d="M722 181v5h5" stroke="#8FB0DE" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="866" y="170" width="186" height="34" rx="17" fill="#0F172A" stroke="#2E4A7A"/>
+  <circle cx="888" cy="187" r="6" fill="#4ADE80"/>
+  <text x="904" y="191" fill="#DDE7F5" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">Works fully offline</text>
+
+  <!-- left: mermaid source -->
+  <rect x="126" y="238" width="392" height="364" rx="20" fill="#0B1324" stroke="#22324F"/>
+  <text x="150" y="274" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Mermaid source</text>
+  <text x="150" y="308" fill="#F59E0B" font-family="Courier New, monospace" font-size="14">flowchart LR</text>
+  <text x="150" y="334" fill="#E2E8F0" font-family="Courier New, monospace" font-size="14">  subgraph Author</text>
+  <text x="150" y="360" fill="#93C5FD" font-family="Courier New, monospace" font-size="14">    idea["Diagram source"]</text>
+  <text x="150" y="386" fill="#93C5FD" font-family="Courier New, monospace" font-size="14">    draw["Draw mode"]</text>
+  <text x="150" y="412" fill="#E2E8F0" font-family="Courier New, monospace" font-size="14">  end</text>
+  <text x="150" y="438" fill="#E2E8F0" font-family="Courier New, monospace" font-size="14">  idea --&gt; draw</text>
+  <text x="150" y="464" fill="#E2E8F0" font-family="Courier New, monospace" font-size="14">  draw --&gt; ship{"Export"}</text>
+  <text x="150" y="498" fill="#FCD34D" font-family="Courier New, monospace" font-size="14">  classDef ok fill:#86efac</text>
+  <text x="150" y="524" fill="#FCD34D" font-family="Courier New, monospace" font-size="14">  class ship ok</text>
+  <rect x="150" y="548" width="212" height="22" rx="11" fill="#1D4ED8" opacity="0.38"/>
+  <text x="162" y="564" fill="#DBEAFE" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">your formatting is never rewritten</text>
+
+  <!-- right: rendered diagram -->
+  <rect x="538" y="238" width="536" height="364" rx="20" fill="#FCF7EF"/>
+  <rect x="524" y="254" width="8" height="332" rx="4" fill="#FFB347"/>
+  <text x="564" y="274" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">Live preview</text>
+
+  <rect x="568" y="300" width="150" height="56" rx="10" fill="#7DD3FC" stroke="#0369A1" stroke-width="2"/>
+  <text x="590" y="334" fill="#0C223A" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Diagram source</text>
+
+  <path d="M718 328H772" stroke="#475569" stroke-width="2.5"/>
+  <path d="M772 328l-10-5v10l10-5Z" fill="#475569"/>
+
+  <rect x="776" y="300" width="132" height="56" rx="10" fill="#7DD3FC" stroke="#0369A1" stroke-width="2"/>
+  <text x="800" y="334" fill="#0C223A" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Draw mode</text>
+
+  <path d="M842 356V400" stroke="#475569" stroke-width="2.5"/>
+  <path d="M842 400l-5-10h10l-5 10Z" fill="#475569"/>
+
+  <path d="M842 404L900 448L842 492L784 448L842 404Z" fill="#FDE047" stroke="#A16207" stroke-width="2"/>
+  <text x="812" y="454" fill="#1C1917" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">Renders</text>
+  <text x="815" y="472" fill="#1C1917" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">cleanly?</text>
+
+  <path d="M784 448H700" stroke="#475569" stroke-width="2.5"/>
+  <path d="M700 448l10-5v10l-10-5Z" fill="#475569"/>
+  <text x="712" y="440" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13">no</text>
+
+  <rect x="568" y="420" width="126" height="56" rx="10" fill="#FFFFFF" stroke="#94A3B8" stroke-width="2"/>
+  <text x="590" y="454" fill="#0F172A" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Keep editing</text>
+
+  <path d="M900 448H952" stroke="#475569" stroke-width="2.5"/>
+  <path d="M952 448l-10-5v10l10-5Z" fill="#475569"/>
+  <text x="908" y="440" fill="#475569" font-family="Arial, Helvetica, sans-serif" font-size="13">yes</text>
+
+  <rect x="956" y="420" width="96" height="56" rx="10" fill="#86EFAC" stroke="#15803D" stroke-width="2"/>
+  <text x="982" y="454" fill="#052E16" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">Export</text>
+
+  <rect x="568" y="516" width="118" height="34" rx="17" fill="#111827"/>
+  <text x="588" y="538" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">PNG · JPG</text>
+  <rect x="698" y="516" width="98" height="34" rx="17" fill="#111827"/>
+  <text x="720" y="538" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">PDF · SVG</text>
+  <rect x="808" y="516" width="100" height="34" rx="17" fill="#FFF0DA"/>
+  <text x="826" y="538" fill="#9A3412" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700">draw.io</text>
+
+  <text x="124" y="662" fill="#334155" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="800">Type it or draw it — one panel, live preview, and five export formats without leaving VS Code.</text>
+</svg>

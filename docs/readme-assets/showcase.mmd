@@ -1,0 +1,38 @@
+---
+title: Release pipeline
+---
+%% Demo document used to capture the README screenshots.
+%% Regenerate the images with: node scripts/make-readme-shots.js
+flowchart LR
+  classDef stage fill:#7dd3fc,stroke:#0369a1,stroke-width:2px,color:#0c223a
+  classDef gate fill:#fde047,stroke:#a16207,color:#1c1917
+  classDef ship fill:#86efac,stroke:#15803d,color:#052e16
+
+  subgraph author["Author"]
+    direction TB
+    idea["Diagram source<br>.mmd"]:::stage
+    draw["Draw mode<br>edit in preview"]:::stage
+  end
+
+  subgraph build["Validate"]
+    direction TB
+    lint{"Renders<br>cleanly?"}:::gate
+    review["Contrast audit<br>dark + light"]:::stage
+  end
+
+  subgraph deliver["Deliver"]
+    direction TB
+    png["PNG / JPG"]:::ship
+    pdf["PDF"]:::ship
+    vector["SVG"]:::ship
+    dio["draw.io"]:::ship
+  end
+
+  idea --> draw
+  draw --> lint
+  lint -- yes --> review
+  lint -- no --> draw
+  review --> png
+  review --> pdf
+  review --> vector
+  review --> dio
